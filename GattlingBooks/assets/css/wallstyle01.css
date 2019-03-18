@@ -1,0 +1,6 @@
+﻿body, html {
+    background-image: url('../wall.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}

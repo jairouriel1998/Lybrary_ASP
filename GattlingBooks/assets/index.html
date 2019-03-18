@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <!-- Login base -->
+  <div class="container-fluid">
+    <div class="row toper">
+      <div class="col-sm"> </div>
+      <div class="col-sm backdark">
+        <div class="text-center">
+          <img id="profile-img" class="rounded-circle profile-img-card" src="face.png"/>
+          <p id="profile-name" class="profile-name-card">Inicio de sesión</p>
+          <form  class="form-signin">
+            <input type="text" name="text" id="inputUser" class="form-control form-group" placeholder="Usuario" required autofocus>
+            <input type="password" name="password" id="inputPassword" class="form-control form-group" placeholder="Contraseña" required autofocus>
+            <br>
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Iniciar Sesión</button>
+            <br>
+            <a class="btn btn-link text-light" href="#" data-toggle="modal" data-target="#registerModal">¿No tienes una cuenta?</a>
+            <br>
+          </form>
+        </div>
+      </div>
+      <div class="col-sm"> </div>
+    </div>
+  </div>
+  <!-- end login base -->
+
+  <!-- Register Modal 
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content backdark_modal">
+        <div class="text-center">
+          <img id="profile-img" class="rounded-circle profile-img-card" src="face.png" />
+          <p id="profile-name" class="profile-name-card">Registro</p>
+          <form class="form-register">
+            <input type="text" name="text" id="inputNombre" class="form-control form-group" placeholder="Nombres" required autofocus>
+            <input type="text" name="text" id="inputApellidos" class="form-control form-group" placeholder="Apellidos" required autofocus>
+            <input type="email" name="text" id="inputEmail" class="form-control form-group" placeholder="Email" required autofocus>
+            <input type="text" name="text" id="inputUsuario" class="form-control form-group" placeholder="Nombre de usuario" required autofocus>
+            <input type="password" name="password" id="inputPassword" class="form-control form-group" placeholder="Contraseña" required autofocus>
+            <input type="password" name="password" id="inputRePassword" class="form-control form-group" placeholder="Confirmar contraseña" required autofocus>
+            <br>
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Registrarse</button>
+            <br>
+            <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Cancelar</button>
+            <br>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  -->
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
